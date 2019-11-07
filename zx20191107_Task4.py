@@ -63,5 +63,5 @@ for phoneNum in outgoingCallsList:
 
 
 print("These numbers could be telemarketers: ")
-print(*sorted(telemarketersCallslist), sep='\n')
+print(*telemarketersCallslist, sep='\n')
 # print(len(telemarketersCallslist))

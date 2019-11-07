@@ -98,7 +98,7 @@ for record in calls:
 
 
 print("The numbers called by people in Bangalore have codes:")
-print(*sorted(phoneNumberCodes), sep='\n')
+print(*phoneNumberCodes, sep='\n')
 
 # print(callsMadeFromBangalore)
 
